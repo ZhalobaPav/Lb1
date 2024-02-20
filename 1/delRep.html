@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Усунення повторення даних</title>
+    <link rel="stylesheet" href="delRep.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Усунення</h1>
+        <nav>
+            <a href="main.html">Трикутник</a>
+            <a href="countProb.html">Обчислити кількість символів у тексті</a>
+        </nav>
+        <div id="author-info">
+            <img src="pudge.png">
+            <p>pudge, gordura, gras, Speck, ciccia, жир, 肥胖, ふとった, 살찐, gordura, knubbig, mollig, pulchny, kövér, λίπος, tombul, buttet, lubben, pullea, tlustý</p>
+        </div>
+    </header>
+    <div class="container">
+        <form id="remove-duplicates">
+            <label for="dates">Введіть набір дат (кожну на новому рядку):</label>
+            <textarea id="dates" name="dates" required></textarea>
+            <input type="submit" value="Усунути дублікати">
+        </form>
+        <div id="remove-duplicates-result"></div>
+    </div>
+
+    <script src="delRep.js"> </script>
+    <script src="revealPudge.js"> </script>
+</body>
+</html>
